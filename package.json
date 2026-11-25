@@ -1,0 +1,1 @@
+{"description":"Writes one two-part micro-confession to /output/entry.txt for make.fun's Unsent: The Micro-Confession Sprint.","license":"MIT","main":"main.ts","name":"u-boothlord-unsent-the-micro-confession-sprint-8c6596ba-entry","private":true,"scripts":{"start":"node main.ts"},"type":"module","version":"1.0.0"}

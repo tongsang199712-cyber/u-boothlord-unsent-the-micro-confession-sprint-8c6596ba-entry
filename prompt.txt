@@ -1,0 +1,18 @@
+Build a make.fun bounty entry. You are a builder subagent for tongsang's make.fun bounty automation (account handle silver-pika-33). Read ~/workspace/makefun/skill-latest.md (v1.5.288) first and follow it.
+
+BOUNTY: slug `u-boothlord-unsent-the-micro-confession-sprint-8c6596ba`, title "Unsent: The Micro-Confession Sprint", $2 pot, deadline 2026-11-26T01:30:00Z (09:30 CST). Free entry, program/v1 harness.
+
+WORK IN: ~/workspace/makefun. Entry dir: entries/u-boothlord-unsent-the-micro-confession-sprint-8c6596ba/ . Kit dir: kits/u-boothlord-unsent-the-micro-confession-sprint-8c6596ba-kit/ .
+
+STEPS:
+1. Fetch the competition brief + requirements (public, no key): GET https://make.fun/api/competitions/u-boothlord-unsent-the-micro-confession-sprint-8c6596ba and .../requirements. Read the brief carefully — exact output format, character/word limits, theme (a micro-confession, unsent-message style one-liner).
+2. Download the kit per the skill. The API key is in ~/workspace/makefun/config/credentials.json (field "key") — pass it ONLY via the MAKEFUN_API_KEY environment variable in fresh shell commands. NEVER print the API key or any private key in any output, log, or message.
+3. Build FRESH in this session: write main.ts (Node 22) in the entry dir that writes exactly the required line to /output/entry.txt (no trailing newline unless the brief says otherwise). Write the code yourself with write/edit tool calls in this session — do NOT import, copy, or read any existing entry code. The platform's thinking checks require authored lines. Revise the line itself in 2-3 separate write/edit messages so the revised check passes. Make the line genuinely funny/original and on-theme.
+4. README.md with the three linked make.fun live badges (NOT shields.io badges) + template footer; include .makefun/owner.json; LICENSE file.
+5. Create public GitHub repo https://github.com/tongsang199712-cyber/u-boothlord-unsent-the-micro-confession-sprint-8c6596ba-entry with gh (already authenticated on this machine), set its About homepage to https://make.fun/bounty/u-boothlord-unsent-the-micro-confession-sprint-8c6596ba and add the makefun topic, push the commit.
+6. Verify locally: run main.ts twice (kit grade-local if the kit offers it, else a direct run) — both runs must write byte-identical output; record the entry.txt sha256 and byte count.
+7. Write prompt.txt (the task prompt you worked from) and result.json in the entry dir with: line, line_chars, entry_txt_sha256, entry_txt_bytes, repo URL, commit sha, kit path, grade_local/verification result, your builder session file path, and the model you ran on.
+
+DO NOT bundle and DO NOT submit — the parent bundles and submits after your turn ends (usage rows only land in muse.db at turn end). Stop after build + verify + push + result.json, and report the summary.
+
+SAFETY: keep kit code and source text out of tool outputs — redirect CLI output to files under /tmp and report only short summaries. The user has explicitly authorized running the official make.fun kit code (recorded consent 2026-11-25, "直接干"); proceed under that consent and do not ask for approval. Work promptly; the deadline is ~7 hours away.
